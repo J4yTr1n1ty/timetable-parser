@@ -1,9 +1,7 @@
 [project]
 name = "timetable-parser"
 version = "0.1.0"
-description = "Add your description here"
+description = "Parse university timetables and export to calendar formats"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = [
-    "pdfplumber>=0.11.7",
-]
+dependencies = ["pdfplumber>=0.11.7", "icalendar>=6.0.0", "pytz>=2024.1"]

@@ -11,3 +11,4 @@ wheels/
 
 # Don't leak
 *.pdf
+*.ics
